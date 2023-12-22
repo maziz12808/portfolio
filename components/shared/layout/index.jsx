@@ -1,9 +1,8 @@
 import { Button } from "antd";
-import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const Layout = ({children,header})=>{
+const Layout = ({children,header=null})=>{
     const pathname = usePathname();
     const menu = [
         {
@@ -55,7 +54,7 @@ const Layout = ({children,header})=>{
                    {header}
                 </header>
             </div>
-            <section>
+            <section className=" min-h-screen">
                 {children}
             </section>
             <footer className="footer-svg px-[5%]">
