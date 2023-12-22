@@ -2,13 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-#header {
-    background-image: url("../public/images/hero_bg_2.svg");
-}
-
-
-
-
 #stroke-text{
     letter-spacing: 4px;
 	-webkit-text-stroke: 1.8px #734293;
@@ -39,7 +32,7 @@
 }
 
 .footer-gradient-text {
-    background: linear-gradient(to right, #F9E5E9, #9089FE); 
+    background: linear-gradient(to right, #F9E5E9, #928BFE); 
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;

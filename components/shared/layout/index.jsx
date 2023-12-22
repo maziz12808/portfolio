@@ -2,7 +2,7 @@ import { Button } from "antd";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const Layout = ({children,header=null})=>{
+const Layout = ({children,header=null,headerbg})=>{
     const pathname = usePathname();
     const menu = [
         {
@@ -24,7 +24,7 @@ const Layout = ({children,header=null})=>{
     ]
     return (
         <>
-            <div id="header">
+            <div id={headerbg}>
                 <header className="px-[5%]">
                     <nav className="flex justify-between items-center">
                         <p></p>

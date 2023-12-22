@@ -1,2 +1,2 @@
-import ContactUs from "@/components/contact-us"
-export default ContactUs
+import Layout from "@/components/contact-us"
+export default Layout
