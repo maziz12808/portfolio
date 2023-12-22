@@ -1,3 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#header {
+    background-image: url("../public/images/hero_bg_2.svg");
+}
+
+
+
+
+#stroke-text{
+    letter-spacing: 4px;
+	-webkit-text-stroke: 1.8px #734293;
+	-webkit-text-fill-color: #FFF2F0;
+    background: linear-gradient(to right, #5A3A9E, white);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #5A3A9E, #ec0418); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-fill-color: transparent;
+}
+
+.animate__animated.animate__pulse {
+    --animate-duration: 4s;
+}
+
+.portfolio-bg-2 {
+    background-image: url("../public/images/protfolio_bg2.png");
+}
+.footer-svg {
+    background-image: url("../public/images/footer_bg.svg");
+}
+
+.footer-gradient-text {
+    background: linear-gradient(to right, #F9E5E9, #9089FE); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-fill-color: transparent;
+}
