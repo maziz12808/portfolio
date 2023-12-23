@@ -3,6 +3,8 @@ import {Button} from "antd"
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import style from "./home.module.css"
+
 const Home = ()=>{
     const [hiddenProject,sethiddenProject] = useState("hidden")
     const Header = ()=>{
@@ -68,7 +70,7 @@ const Home = ()=>{
         )
     }
     return (
-        <Layout header={<Header />}>
+        <Layout header={<Header />} headerbg={style.header}>
             <div className="portfolio-bg-2 px-[6%] py-[10%]">
                 <div className="grid grid-cols-2">
                     <div>

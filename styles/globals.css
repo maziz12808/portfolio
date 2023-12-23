@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-#header {
-    background-image: url("../public/images/hero_bg_2.svg");
-}
+
 #stroke-text{
     letter-spacing: 4px;
 	-webkit-text-stroke: 1.8px #734293;
@@ -40,4 +38,11 @@
     -webkit-background-clip: text;
     color: transparent;
     text-fill-color: transparent;
+}
+
+.text-orange {
+    color: #D65E5D !important;
+}
+.text-white {
+    color: whitesmoke !important;
 }
