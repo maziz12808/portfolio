@@ -43,28 +43,32 @@ const ContactUs = ()=>{
                             <Input 
                             size="large" 
                             style={{borderRadius: 0}} 
-                            placeholder="First name"
+                            placeholder="First name" 
+                            className=" focus:border-indigo-800 focus:shadow-none hover:border-inherit"
                         />
                         </Item>
                         <Item name="lastname" rules={[{required:true,message:"fullname is required!"}]}>
                             <Input 
                             size="large" 
                             style={{borderRadius: 0}} 
-                            placeholder="Last name"
+                            placeholder="Last name" 
+                            className=" focus:border-indigo-800 focus:shadow-none hover:border-inherit"
                         />
                         </Item>
                         <Item name="email" rules={[{required:true,message:"fullname is required!"}]}>
                             <Input 
                             size="large" 
                             style={{borderRadius: 0}} 
-                            placeholder="Email"
+                            placeholder="Email" 
+                            className=" focus:border-indigo-800 focus:shadow-none hover:border-inherit"
                         />
                         </Item>
                         <Item name="message" rules={[{required:true,message:"fullname is required!"}]}>
                             <Input.TextArea 
                             rows={6}
                             style={{borderRadius: 0}} 
-                            placeholder="Your message"
+                            placeholder="Your message" 
+                            className=" focus:border-indigo-800 focus:shadow-none hover:border-inherit"
                         />
                         </Item>
                         <Item>

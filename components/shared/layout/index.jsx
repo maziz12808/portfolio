@@ -34,7 +34,7 @@ const Layout = ({children,header,headerbg=null})=>{
                                     <li className={`
                                             hover:cursor-pointer py-7 text-gray-500 hover:text-[#FE7968] 
                                             text-lg" key={menuIndex
-                                            ${pathname == '/' ? "text-gray-500" : "text-gray-500"}
+                                            ${pathname === '/' ? "text-gray-500" : "text-gray-300"}
                                         `} 
                                         key={menuIndex}
                                     >
