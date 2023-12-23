@@ -29,11 +29,15 @@ const contactUs = ()=>{
     }
     return (
         <Layout header={<Header />} headerbg={style.header}>
-            <div className="px-[5%] py-[10%]">
-                <h1>resume</h1>
+            <div className="portfolio-bg px-[10%] py-[3%]">
+                <div className="bg-[#FCF9F2] border border-red-500 w-full h-[400px]">
+
+                </div>
             </div>
         </Layout>
     )
 }
+
+
 
 export default contactUs;
