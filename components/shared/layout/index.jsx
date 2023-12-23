@@ -2,7 +2,7 @@ import { Button } from "antd";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const Layout = ({children,header=null,headerbg})=>{
+const Layout = ({children,header,headerbg=null})=>{
     const pathname = usePathname();
     const menu = [
         {
@@ -59,7 +59,7 @@ const Layout = ({children,header=null,headerbg})=>{
             </section>
             <footer className="footer-svg px-[5%]">
                 <div className="py-[7%] flex items-center justify-between">
-                    <p className="text-white text-7xl font-bold ml-28 footer-gradient-text">Have a project?</p>
+                    <p className="text-7xl font-bold ml-28 footer-gradient-text">Have a project?</p>
                     <Button 
                             type="text" 
                             className="flex items-center px-9 py-[27px] font-bold text-lg shadow rounded-lg mr-20"
