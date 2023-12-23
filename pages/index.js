@@ -1,2 +1,2 @@
-import Layout from "@/components/contact-us"
+import Layout from "@/components/resume"
 export default Layout
