@@ -15,7 +15,7 @@ const ContactUs = ()=>{
     console.log(pathname);
     const Header = ()=>{
         return (
-            <div className="py-6 flex items-center flex-col gap-y-4">
+            <div className="py-[7%] flex items-center flex-col gap-y-4">
                 <h1 className="footer-gradient-text text-7xl font-extrabold">
                     Contact Us
                 </h1>
@@ -34,7 +34,7 @@ const ContactUs = ()=>{
     }
     return (
         <Layout header={<Header />} headerbg={style.header}>
-            <div className="portfolio-bg-2 px-[5%] py-[10%]">
+            <div className="portfolio-bg px-[5%] py-[10%]">
                 <div className="ml-[15%]">
                     <h1 className=" text-3xl font-bold mb-1">Lets Talk</h1>
                     <p className=" text-gray-500 mb-5">Got a project in mind? Fill in the form or send us.</p>
