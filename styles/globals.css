@@ -29,10 +29,21 @@
     background-image: url("../public/images/protfolio_bg2.png");
 }
 
-.portfolio-bg {
-    background-image: url("../public/images/blog_bg_2.png");
+.hero-bg2 {
+    background-image: url("../public/images/hero_bg_2.svg");
 }
 
+.portfolio-bg {
+    background-image: url("../public/images/blog_bg_2.png");
+    background-repeat: no-repeat;
+}
+.resume-cover-img {
+    background-image: url("../public/images/hero_bg_3.svg");
+    width: 280px;
+    height: 280px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 .footer-svg {
     background-image: url("../public/images/footer_bg.svg");
 }

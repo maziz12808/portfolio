@@ -1,0 +1,13 @@
+#header {
+    background-image: url("../../public/images/footer_bg.svg");
+}
+
+.eye {
+    margin-left: 12px;
+    width: 100px;
+    aspect-ratio: 1;
+    background: #FFF4F3;
+    rotate: 45deg;
+    border-radius: 80% 0;
+    border: 1px solid #eee4e3;
+}
