@@ -12,11 +12,14 @@ const {Item} = Form;
 
 const ContactUs = ()=>{
     const pathname = usePathname()
-    console.log(pathname);
+    // FINCTIONS
+    const onContact = (value)=>{
+        console.log(value);
+    }
     const Header = ()=>{
         return (
-            <div className="py-[7%] flex items-center flex-col gap-y-4">
-                <h1 className="footer-gradient-text text-7xl font-extrabold">
+            <div className="py-[30%] md:py-[7%] flex items-center flex-col gap-y-4">
+                <h1 className="footer-gradient-text text-6xl md:text-7xl font-bold md:font-extrabold">
                     Contact Us
                 </h1>
                 <Breadcrumb 
@@ -35,11 +38,17 @@ const ContactUs = ()=>{
     return (
         <Layout header={<Header />} headerbg={style.header}>
             <div className="portfolio-bg px-[5%] py-[10%]">
-                <div className="ml-[15%]">
-                    <h1 className=" text-3xl font-bold mb-1">Lets Talk</h1>
-                    <p className=" text-gray-500 mb-5">Got a project in mind? Fill in the form or send us.</p>
-                    <Form className=" w-8/12">
-                        <Item name="firstname" rules={[{required:true,message:"fullname is required!"}]}>
+                <div className=" ml-0 md:ml-[15%]">
+                    <h1 className=" text-3xl font-bold mb-5">Lets Talk</h1>
+                    <Form className="w-full md:w-8/12 flex flex-col md:gap-y-4 gap-y-2" onFinish={onContact}>
+                        <Item 
+                            name="firstname" 
+                            rules={[
+                                {
+                                    required:true,
+                                    message:<h1 className="text-lg">Please fill out this field.</h1>
+                                }
+                            ]}>
                             <Input 
                             size="large" 
                             style={{borderRadius: 0}} 
@@ -47,7 +56,14 @@ const ContactUs = ()=>{
                             className=" focus:border-indigo-800 focus:shadow-none hover:border-inherit"
                         />
                         </Item>
-                        <Item name="lastname" rules={[{required:true,message:"fullname is required!"}]}>
+                        <Item 
+                            name="lastname" 
+                            rules={[
+                                {required:true,
+                                message:<h1 className="text-lg">Please fill out this field.</h1>
+                                }
+                            ]}
+                        >
                             <Input 
                             size="large" 
                             style={{borderRadius: 0}} 
@@ -55,7 +71,15 @@ const ContactUs = ()=>{
                             className=" focus:border-indigo-800 focus:shadow-none hover:border-inherit"
                         />
                         </Item>
-                        <Item name="email" rules={[{required:true,message:"fullname is required!"}]}>
+                        <Item 
+                            name="email" 
+                            rules={[
+                                {
+                                    required:true,
+                                    message:<h1 className="text-lg">Please fill out this field.</h1>
+                                }
+                            ]}
+                        >
                             <Input 
                             size="large" 
                             style={{borderRadius: 0}} 
@@ -63,7 +87,14 @@ const ContactUs = ()=>{
                             className=" focus:border-indigo-800 focus:shadow-none hover:border-inherit"
                         />
                         </Item>
-                        <Item name="message" rules={[{required:true,message:"fullname is required!"}]}>
+                        <Item name="message" 
+                            rules={[
+                                {
+                                    required:true,
+                                    message:<h1 className="text-lg">Please fill out this field.</h1>
+                                }
+                            ]}
+                        >
                             <Input.TextArea 
                             rows={6}
                             style={{borderRadius: 0}} 
@@ -74,6 +105,7 @@ const ContactUs = ()=>{
                         <Item>
                             <Button 
                                 type="text" 
+                                htmlType="submit"
                                 className="flex items-center px-9 py-[27px] font-bold text-lg shadow rounded-lg mr-20"
                                 style={{backgroundColor: "#FF6D5A",color: "white"}}
                             >

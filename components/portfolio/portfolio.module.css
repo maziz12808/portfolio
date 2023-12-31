@@ -1,3 +1,80 @@
 #header {
     background-image: url("../../public/images/footer_bg.svg");
+    background-repeat: no-repeat;
+}
+
+.mansa {
+    background-image: url("/images/project/mansa.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 0%;
+    transition: background 5s ease-in-out;
+}
+.mansa:hover {
+    background-position-y: 100%;
+}
+.blonve {
+    background-image: url("/images/project/blonve.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 0%;
+    transition: background 5s ease-in-out;
+}
+.blonve:hover {
+    background-position-y: 100%;
+}
+
+.tifara {
+    background-image: url("/images/project/tifara.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 0%;
+    transition: background 5s ease-in-out;
+}
+.tifara:hover {
+    background-position-y: 100%;
+}
+
+.bluestone {
+    background-image: url("/images/project/bluestone.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 0%;
+    transition: background 5s ease-in-out;
+}
+.bluestone:hover {
+    background-position-y: 100%;
+}
+.nithiyamotors {
+    background-image: url("/images/project/nithiyamotors.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 0%;
+    transition: background 5s ease-in-out;
+}
+.nithiyamotors:hover {
+    background-position-y: 100%;
+}
+
+.panbaiinternationalschool {
+    background-image: url("/images/project/panbaiinternationalschool.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 0%;
+    transition: background 5s ease-in-out;
+}
+.panbaiinternationalschool:hover {
+    background-position-y: 100%;
 }

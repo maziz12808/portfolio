@@ -1,3 +1,49 @@
 #header {
     background-image: url("../../public/images/hero_bg_2.svg");
 }
+
+.experience-gradient-text {
+    background: linear-gradient(to right, #EFF0F7, #FFF3F1); 
+    background-clip: background;
+    -webkit-background-clip: background;
+    text-fill-color: transparent;
+}
+
+.mansa {
+    background-image: url("/images/project/mansa.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 0%;
+    transition: background 5s ease-in-out;
+}
+.mansa:hover {
+    background-position-y: 100%;
+}
+
+.blonve {
+    background-image: url("/images/project/blonve.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 0%;
+    transition: background 5s ease-in-out;
+}
+.blonve:hover {
+    background-position-y: 100%;
+}
+
+.tifara {
+    background-image: url("/images/project/tifara.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 0%;
+    transition: background 5s ease-in-out;
+}
+.tifara:hover {
+    background-position-y: 100%;
+}
