@@ -113,11 +113,21 @@ const ContactUs = ()=>{
                                             Bootstrap
                                         </li>
                                         <li className="flex gap-x-2 items-center font-medium">
-                                            <Image src="/images/resume-image/tailwind_logo.png" width={30} height={30} />
+                                            <Image 
+                                                src="/images/resume-image/tailwind_logo.png" 
+                                                width={30} 
+                                                height={30} 
+                                                alt="tailwind_logo"
+                                            />
                                             Tailwind CSS  
                                         </li>
                                         <li className="flex gap-x-2 items-center font-medium">
-                                            <Image src="/images/resume-image/material_logo.png" width={30} height={30} />
+                                            <Image 
+                                                src="/images/resume-image/material_logo.png" 
+                                                width={30} 
+                                                height={30} 
+                                                alt="material_logo"
+                                            />
                                             Material UI 
                                         </li>
                                         <li className="flex gap-x-2 items-center font-medium">
