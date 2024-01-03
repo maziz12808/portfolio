@@ -43,11 +43,14 @@ const Layout = ({children,header,headerbg=null})=>{
                                         <li className={`
                                                 hover:cursor-pointer py-7 text-gray-500 hover:text-[#FE7968] 
                                                 text-lg" key={menuIndex
-                                                ${pathname === '/' ? "text-gray-500" : "text-gray-300"}
                                             `} 
                                             key={menuIndex}
                                         >
-                                            <Link href={menuItem.href}>{menuItem.label}</Link>
+                                            <Link href={menuItem.href} legacyBehavior>
+                                                <a className={`${pathname === menuItem.href && "text-[#FE7968]"}`}>
+                                                    {menuItem.label}
+                                                </a>
+                                            </Link>
                                         </li>
                                     ))
                                 }
