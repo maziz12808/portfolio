@@ -83,7 +83,7 @@ const Home = ()=>{
                 </div>
                 <div className="relative mb-10 md:border">
                     <div className={
-                        `${style['experience-gradient-text']} absolute right-4 top-20 md:top-36 md:right-14 
+                        `${style['experience-gradient-text']} absolute bottom-12 left-6 
                         z-50 rounded-full w-[120px] h-[120px] md:w-[150px] md:h-[150px] border shadow`
                         }
                     >
@@ -102,17 +102,31 @@ const Home = ()=>{
                         loading="lazy" 
                         alt="hero_bg_3"
                     />
+                    
                     <Image 
-                        src="/images/hero_1.png" 
+                        src="/images/aziz_port.jpg" 
                         width={0} 
                         height={0}
                         sizes="100vw" 
-                        className="absolute top-20 left-0 animate__animated animate__pulse animate__infinite z-10"
-                        style={{width: "100%",height: "auto"}} 
+                        className="absolute hidden md:block  top-16 left-10 animate__animated animate__pulse animate__infinite z-10 rounded-full"
+                        style={{width: "84%",height: 640}} 
                         loading="lazy" 
                         alt="hero_1"
                         
                     />
+
+                    <Image 
+                        src="/images/aziz_port.jpg" 
+                        width={0} 
+                        height={0}
+                        sizes="100vw" 
+                        className="absolute block md:hidden  top-12 left-9 animate__animated animate__pulse animate__infinite z-10 rounded-full"
+                        style={{width: "80%",height: 390}} 
+                        loading="lazy" 
+                        alt="hero_1"
+                        
+                    />
+                    
                 </div>
             </div>
         )

@@ -58,22 +58,26 @@ const ContactUs = ()=>{
                         </div>
                         <div className="resume-cover-img hidden md:block">
                             <Image 
-                                src="/images/hero_1.png" 
-                                width={200} 
-                                height={200}
+                                src="/images/aziz_port.jpg" 
+                                width={0} 
+                                height={0}
                                 loading="lazy" 
                                 alt="hero_1" 
-                                className="absolute top-10 left-0"
+                                sizes="100vw" 
+                                style={{width: "60%", height: "87%"}}
+                                className="absolute top-6 left-3.5 rounded-full"
                             />
                         </div>
                         <div className="resume-cover-mobimg block md:hidden ml-4 md:ml-0">
                             <Image 
-                                src="/images/hero_1.png" 
-                                width={300} 
-                                height={300}
+                                src="/images/aziz_port.jpg" 
+                                width={0} 
+                                height={0}
                                 loading="lazy" 
                                 alt="hero_1" 
-                                className="absolute top-10 left-3"
+                                sizes="100vw" 
+                                style={{width: "70%", height: "89%"}}
+                                className="absolute top-9 left-11 rounded-full"
                             />
                         </div>
                     </div>
