@@ -13,8 +13,8 @@ const Home = ()=>{
     });
     const downloadResume = ()=>{
         const ancherEl = document.createElement("a");
-        ancherEl.href = "/aziz_fullstack.docx";
-        ancherEl.download = "/aziz_fullstack.docx";
+        ancherEl.href = "/aziz_fullstack.pdf";
+        ancherEl.download = "/aziz_fullstack.pdf";
         ancherEl.click();
         ancherEl.remove()
     }
