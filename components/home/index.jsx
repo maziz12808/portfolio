@@ -39,7 +39,7 @@ const Home = ()=>{
                         industry trends for innovative web development.
                     </p>
                     <div className="flex gap-x-7 mb-3">
-                        <Link href="https://www.linkedin.com/in/muhammad-aziz-2642aa2a7" target="_blank">
+                        <Link href="https://profile.indeed.com/resume" target="_blank">
                             <Image 
                                 src="/images/indeed_logo.png" 
                                 width={40} 
